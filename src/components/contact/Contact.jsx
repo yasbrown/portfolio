@@ -1,9 +1,13 @@
 import React from 'react'
 import './contact.css'
+import ContactSocials from './ContactSocials'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      Contact
+      <ContactSocials />
+    </div>
   )
 }
 
