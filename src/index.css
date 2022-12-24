@@ -9,10 +9,9 @@
 }
 
 :root {
-  --color-bg: #3A86FF;
-  --color-bg-variant: #8338EC;
-  --color-primary: #FB5607;
-  --color-primary-variant: #FF006E;
+  --color-bg: #F3FFE5;
+  --color-primary: #000000;
+  --color-primary-variant: #AF8EF5;
   --color-highlight: #FFBE0B;
 
   --transition: all 400ms ease;
@@ -47,7 +46,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 6.25rem;
 }
 
 section {
