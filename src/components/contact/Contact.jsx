@@ -4,10 +4,10 @@ import ContactSocials from './ContactSocials'
 
 const Contact = () => {
   return (
-    <div>
+    <section id="contact">
       Contact
       <ContactSocials />
-    </div>
+    </section>
   )
 }
 
