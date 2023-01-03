@@ -4,10 +4,12 @@ import './nav.css'
 const Nav = () => {
   return (
     <nav>
-      <a href="#">Home</a>
-      <a href="#about">About</a>
-      <a href="#experience">Projects</a>
-      <a href="#contact">Contact</a>
+      <a href="#header">Yasmin Brown</a>
+      <div className="nav-btns">
+        <a href="#about" className='active'>About</a>
+        <a href="#experience">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
   )
 }
