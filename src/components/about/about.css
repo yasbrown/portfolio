@@ -1,0 +1,87 @@
+.about__header {
+  padding-top: 7rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.about__header img {
+  height: 4.5rem;
+  width: 22.57rem;
+  z-index: -1;
+  position: absolute;
+  top: 75rem;
+  left: 41rem;
+}
+
+.about__greeting {
+  font-size: 2.3rem;
+  padding-top: 1.6rem;
+}
+
+.about__content {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.about__content > p {
+  padding-bottom: 0.8rem;
+}
+
+.stack__header {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.stack__icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  padding: 1.8rem 2rem;
+}
+
+.stack__icons img {
+  height: 3rem;
+  width: 3rem;
+  margin: 0 auto;
+}
+
+.stack__icons p {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+#rails__icn {
+  width: 8.52rem;
+  height: 3rem;
+}
+
+#HTML__icn {
+  width: 3rem;
+  height: 3.98rem;
+}
+
+#CSS__icn {
+  width: 3rem;
+  height: 4.11rem;
+}
+
+#JS__icn {
+  height: 3rem;
+  width: 3.1rem;
+}
+
+#Heroku__icn {
+  height: 3.22rem;
+  width: 3rem;
+}
+
+#SQL__icn {
+  height: 4rem;
+  width: 4rem;
+}

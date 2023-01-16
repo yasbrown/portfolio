@@ -22,10 +22,6 @@ nav a {
   margin: 0 2.3rem;
 }
 
-/* .nav-btns a.active {
-
-}  */
-
 .nav-btns > a::after {
   content: "";
   display: block;
