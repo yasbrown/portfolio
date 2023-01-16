@@ -56,7 +56,7 @@ section {
 
 section > h2 {
   text-align: center;
-  color: var(--color-highlight);
+  color: var(--color-primary);
   margin-bottom: 3rem;
 }
 
