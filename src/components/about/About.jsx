@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import SWIPE from '../../assets/paint-swipe.png'
 import RUBY from '../../assets/Ruby.png'
 import RAILS from '../../assets/Rails.png'
 import REACT from '../../assets/React.png'
@@ -14,6 +15,7 @@ const About = () => {
     <section id="about">
       <div className="about__header">
         <h2>About me</h2>
+        <img src={SWIPE} />
       </div>
 
       <div className="container about__greeting">
@@ -28,15 +30,39 @@ const About = () => {
       <div className="container stack__header">
         <h2>My stack</h2>
       </div>
-      <div className="stack__icons">
-        <img src={RUBY} alt="Ruby icon" />
-        <img src={RAILS} alt="Rails icon" />
-        <img src={REACT} alt="React icon" />
-        <img src={JS} alt="Javascript icon" />
-        <img src={HTML} alt="HTML5 icon" />
-        <img src={CSS} alt="CSS3 icon" />
-        <img src={POSTGRES} alt="PostgreSQL icon" />
-        <img src={HEROKU} alt="Heroku icon" />
+      <div className="container stack__icons">
+        <div>
+          <img src={RUBY} alt="Ruby icon" />
+          <p>Ruby</p>
+        </div>
+        <div>
+          <img src={RAILS} alt="Rails icon" id='rails__icn'/>
+          <p>Rails</p>
+        </div>
+        <div>
+          <img src={REACT} alt="React icon" />
+          <p>React</p>
+        </div>
+        <div>
+          <img src={JS} alt="Javascript icon" id='JS__icn' />
+          <p>Javascript ES6</p>
+        </div>
+        <div>
+          <img src={HTML} alt="HTML5 icon" id='HTML__icn' />
+          <p>HTML5</p>
+        </div>
+        <div>
+          <img src={CSS} alt="CSS3 icon" id='CSS__icn' />
+          <p>CSS3</p>
+        </div>
+        <div>
+          <img src={POSTGRES} alt="PostgreSQL icon" id='SQL__icn' />
+          <p>PostgreSQL</p>
+        </div>
+        <div>
+          <img src={HEROKU} alt="Heroku icon" id='Heroku__icn' />
+          <p>Heroku</p>
+        </div>
       </div>
 
     </section >
