@@ -15,7 +15,7 @@ const About = () => {
     <section id="about">
       <div className="about__header">
         <h2>About me</h2>
-        <img src={SWIPE} />
+        <img src={SWIPE} alt="paint-swipe" />
       </div>
 
       <div className="container about__greeting">
