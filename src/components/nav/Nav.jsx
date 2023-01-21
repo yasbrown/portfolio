@@ -9,7 +9,7 @@ const Nav = () => {
       <a href="#header" onClick={() => setActiveNav('')}>Yasmin Brown</a>
       <div className="nav-btns">
         <a href="#about" onClick={() => setActiveNav('#about')} className={ activeNav === '#about' ? 'active' : '' }>About</a>
-        <a href="#experience" onClick={() => setActiveNav('#experience')} className={ activeNav === '#experience' ? 'active' : '' }>Projects</a>
+        <a href="#projects" onClick={() => setActiveNav('#experience')} className={ activeNav === '#experience' ? 'active' : '' }>Projects</a>
         <a href="#contact" onClick={() => setActiveNav('#contact')} className={ activeNav === '#contact' ? 'active' : '' }>Contact</a>
       </div>
     </nav>

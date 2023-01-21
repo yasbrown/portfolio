@@ -1,0 +1,51 @@
+.portfolio__header {
+  padding-top: 7rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.portfolio__header img {
+  height: 5.08rem;
+  width: 25.5rem;
+  z-index: -1;
+  position: absolute;
+  top: 140rem;
+  left: 39rem;
+}
+
+.walkin, .airbroomnbroom {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.walkin img {
+  height: 15rem;
+  width: 11.25rem;
+  padding-right: 1.5rem;
+}
+
+.walkin p, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+.walkin h2 {
+  font-weight: bold;
+}
+
+.airbroomnbroom img {
+  height: 12.06rem;
+  width: 22.4rem;
+}
+
+.project__links a {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  padding: 1rem;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.09);
+}
