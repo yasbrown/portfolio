@@ -19,7 +19,8 @@ const Projects = () => {
         <div className='walkin__info'>
           <p>Mobile</p>
           <h2>WalkIn</h2>
-          <p>A web app designed to answer the question: “Where can I get a reservation tonight?” See only the restaurants with available tables based on your time and group size.</p>
+          <p>A web app designed to answer the question: “Where can I get a reservation tonight?”</p>
+          <p>See only the restaurants with available tables based on your time and group size.</p>
           <p>Ruby on Rails  |  JavaScript  |  HTML 5  |  CSS |  PostgreSQL  |  Heroku</p>
           <div className='project__links'>
             {/* <a href="https://walk--in.herokuapp.com/" target="_blank"><LOGO /></a> */}
