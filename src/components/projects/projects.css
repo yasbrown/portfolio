@@ -2,6 +2,10 @@
   padding-top: 7rem;
   text-align: center;
   font-size: 3rem;
+  }
+
+.portfolio__header h2 {
+  font-family: 'Playfair Display', serif;
 }
 
 .portfolio__header img {
@@ -9,32 +13,42 @@
   width: 25.5rem;
   z-index: -1;
   position: absolute;
-  top: 140rem;
+  top: 141rem;
   left: 39rem;
 }
 
 .walkin, .airbroomnbroom {
   display: flex;
-  justify-content: space-around;
   margin: 0 auto;
   padding: 1.5rem;
   box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.09);
   border-radius: 10px;
-  margin-bottom: 2rem;
+}
+
+.walkin {
+  justify-content: flex-start;
+}
+
+.airbroomnbroom {
+  justify-content: flex-end;
 }
 
 .walkin img {
-  height: 15rem;
-  width: 11.25rem;
+  height: 14rem;
+  width: 17rem;
   padding-right: 1.5rem;
 }
 
-.walkin p, h2 {
+.walkin, .airbroomnbroom p, h2 {
   font-family: 'Lato', sans-serif;
 }
 
-.walkin h2 {
+.walkin h2, .airbroomnbroom h2 {
   font-weight: bold;
+}
+
+.airbroomnbroom__info {
+  margin-right: 3rem;
 }
 
 .airbroomnbroom img {
@@ -42,10 +56,27 @@
   width: 22.4rem;
 }
 
+.project_stack {
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.project__links {
+  font-size: 200%;
+  margin-top: 1rem;
+}
+
 .project__links a {
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
-  padding: 1rem;
+  padding: 0.5rem;
   box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.09);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.walkin {
+  margin-bottom: 2rem !important;
 }

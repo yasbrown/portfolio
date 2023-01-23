@@ -3,7 +3,7 @@ import './projects.css'
 import SWIPE from '../../assets/paint-swipe.png'
 import WALKIN from '../../assets/Mockup Walkin.png'
 import AIR from '../../assets/AirBroomNBroom.png'
-// import LOGO from '../../assets/WalkIn Logo.png'
+import LOGO from '../../assets/WalkIn Logo.png'
 import {BsGithub} from 'react-icons/bs'
 
 const Projects = () => {
@@ -21,7 +21,7 @@ const Projects = () => {
           <h2>WalkIn</h2>
           <p>A web app designed to answer the question: “Where can I get a reservation tonight?”</p>
           <p>See only the restaurants with available tables based on your time and group size.</p>
-          <p>Ruby on Rails  |  JavaScript  |  HTML 5  |  CSS |  PostgreSQL  |  Heroku</p>
+          <p className='project_stack'>Ruby on Rails  |  JavaScript  |  HTML 5  |  CSS |  PostgreSQL  |  Heroku</p>
           <div className='project__links'>
             {/* <a href="https://walk--in.herokuapp.com/" target="_blank"><LOGO /></a> */}
             <a href="https://github.com/yasbrown/walk-in" target="_blank"><BsGithub /></a>
@@ -34,7 +34,7 @@ const Projects = () => {
           <p>Desktop</p>
           <h2>AirBroomNBroom</h2>
           <p>An online marketplace to rent broomsticks (AirBnB clone).</p>
-          <p>Ruby on Rails  |  JavaScript  |  HTML 5  |  CSS |  PostgreSQL  |  Heroku</p>
+          <p className='project_stack'>Ruby on Rails  |  JavaScript  |  HTML 5  |  CSS |  PostgreSQL  |  Heroku</p>
           <div className='project__links'>
             <a href="https://github.com/yasbrown/walk-in" target="_blank"><BsGithub /></a>
           </div>

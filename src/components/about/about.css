@@ -4,6 +4,10 @@
   font-size: 3rem;
 }
 
+.about__header h2 {
+  font-family: 'Playfair Display', serif;
+}
+
 .about__header img {
   height: 4.5rem;
   width: 22.57rem;
