@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
+import PAINT from '../../assets/Paint-header.png'
 
 const Header = () => {
   return (
@@ -14,6 +15,7 @@ const Header = () => {
           <h2>F U L L   S T A C K</h2>
           <h2>W E B</h2>
           <h2>D E V E L O P E R</h2>
+          <img src={PAINT} alt="paint-swipe" />
         </div>
         <div className="header_btn">
           <CTA />
