@@ -1,0 +1,47 @@
+.contact__header {
+  padding-top: 7rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.contact__header h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.contact__header img {
+  height: 6rem;
+  width: 46.37rem;
+  z-index: -1;
+  position: absolute;
+  top: 204rem;
+  left: 28rem;
+}
+
+.header__socials {
+  font-size: 15rem;
+  text-align: center;
+  margin-top: 0rem;
+}
+
+.header__socials a {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.contact__final {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.rtn_btn {
+  margin: 0 auto;
+  margin-top: 7rem;
+  font-size: 2.5rem;
+  border: 5px solid black;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
