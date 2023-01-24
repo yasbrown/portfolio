@@ -24,7 +24,7 @@ const Projects = () => {
           <p className='project_stack'>Ruby on Rails  |  JavaScript  |  HTML 5  |  CSS |  PostgreSQL  |  Heroku</p>
           <div className='project__links'>
             <a href="https://walk--in.herokuapp.com/" target="_blank" rel='noopener noreferrer'>
-              <img src={LOGO} />
+              <img src={LOGO} alt="Link to WalkIn webpage"/>
             </a>
             <a href="https://github.com/yasbrown/walk-in" target="_blank" rel='noopener noreferrer'>
               <BsGithub />
