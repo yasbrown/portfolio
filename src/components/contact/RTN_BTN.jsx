@@ -1,11 +1,10 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAnglesUp } from '@fortawesome/free-solid-svg-icons'
 
 const RTN_BTN = () => {
   return (
-    <div className="rtn_btn">
-      <a href="#header"><FontAwesomeIcon icon="fa-solid fa-angles-up" /></a>
-    </div>
+     <a href="#header"><FontAwesomeIcon icon={faAnglesUp} /></a>
   )
 }
 
