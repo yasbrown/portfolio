@@ -17,10 +17,22 @@
   left: 39rem;
 }
 
+.portfolio__content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+
+.portfolio__text {
+  width: 20%;
+  margin: 0 6rem;
+  margin-left: 8rem;
+}
+
 .walkin, .airbroomnbroom {
   display: flex;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1rem;
   box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.09);
   border-radius: 10px;
 }
@@ -36,11 +48,25 @@
 .walkin img {
   height: 14rem;
   width: 17rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  margin: auto 0;
+}
+
+.walkin__info {
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
 
 .walkin, .airbroomnbroom p, h2 {
   font-family: 'Lato', sans-serif;
+}
+
+.walkin__info p, .airbroomnbroom p {
+  font-size: 1rem;
+}
+
+.walkin__info h2, .airbroomnbroom h2 {
+  font-size: 2rem;
 }
 
 .walkin h2, .airbroomnbroom h2 {
@@ -54,10 +80,12 @@
 .airbroomnbroom img {
   height: 12.06rem;
   width: 22.4rem;
+  margin: auto 0;
+  padding-right: 1rem;
 }
 
 .project_stack {
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   font-style: italic;
 }
 
