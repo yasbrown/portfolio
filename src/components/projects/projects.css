@@ -1,3 +1,8 @@
+section {
+  margin-top: 8rem;
+  height: 115vh !important;
+}
+
 .portfolio__header {
   padding-top: 7rem;
   text-align: center;
@@ -5,88 +10,42 @@
   }
 
 .portfolio__header h2 {
-  font-family: 'Playfair Display', serif;
-}
-
-.portfolio__header img {
-  height: 5.08rem;
-  width: 25.5rem;
-  z-index: -1;
-  position: absolute;
-  top: 141rem;
-  left: 39rem;
-}
-
-.portfolio__content {
-  display: flex;
-  flex-direction: row;
-  margin-top: 1.5rem;
-}
-
-.portfolio__text {
-  width: 20%;
-  margin: 0 6rem;
-  margin-left: 8rem;
-}
-
-.walkin, .airbroomnbroom {
-  display: flex;
-  margin: 0 auto;
-  padding: 1rem;
-  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.09);
-  border-radius: 10px;
-}
-
-.walkin {
-  justify-content: flex-start;
-}
-
-.airbroomnbroom {
-  justify-content: flex-end;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .walkin img {
-  height: 14rem;
-  width: 17rem;
+  height: 40rem;
+  width: 75%;
   padding-left: 1rem;
-  margin: auto 0;
+  margin: 0 auto;
+  border-radius: 2%;
 }
 
-.walkin__info {
-  margin-left: 2rem;
-  margin-right: 1rem;
+.project__info {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
 }
 
-.walkin, .airbroomnbroom p, h2 {
-  font-family: 'Lato', sans-serif;
+.project__info__name__type {
+  padding-left: 0.7rem;
 }
 
-.walkin__info p, .airbroomnbroom p {
-  font-size: 1rem;
+.project__info__name__type h2 {
+  font-size: 1.6rem;;
 }
 
-.walkin__info h2, .airbroomnbroom h2 {
-  font-size: 2rem;
+.project__info__name__type p {
+  font-size: 0.8rem;
+  opacity: 60%;
 }
 
-.walkin h2, .airbroomnbroom h2 {
-  font-weight: bold;
-}
-
-.airbroomnbroom__info {
-  margin-right: 3rem;
-}
-
-.airbroomnbroom img {
-  height: 12.06rem;
-  width: 22.4rem;
-  margin: auto 0;
-  padding-right: 1rem;
-}
-
-.project_stack {
-  margin-top: 0.8rem;
-  font-style: italic;
+.project__description__stack {
+  opacity: 60%;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 .project__links {
@@ -114,6 +73,14 @@
   margin: 0.5rem
 }
 
-.walkin {
-  margin-bottom: 2rem !important;
+.airbroomnbroom {
+  padding-top: 4rem;
+}
+
+.airbroomnbroom img {
+  height: 40rem;
+  width: 75%;
+  padding-left: 1rem;
+  margin: 0 auto;
+  border-radius: 2%;
 }

@@ -1,34 +1,32 @@
+#about {
+  margin-top: 100vh;
+}
+
 .about__header {
   padding-top: 7rem;
-  text-align: center;
-  font-size: 3rem;
+  text-align: left;
+  font-size: 1.5rem;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .about__header h2 {
-  font-family: 'Playfair Display', serif;
-}
-
-.about__header img {
-  height: 4.5rem;
-  width: 22.57rem;
-  z-index: -1;
-  position: absolute;
-  top: 78rem;
-  left: 41rem;
-}
-
-.about__greeting {
-  font-size: 2.3rem;
-  padding-top: 1.6rem;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .about__content {
-  font-size: 1.2rem;
-  padding-top: 1rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1rem;
+  opacity: 60%;
+  width: 40%;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
+
 .about__content > p {
+  padding-top: 0.8rem;
   padding-bottom: 0.8rem;
 }
 
