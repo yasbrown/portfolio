@@ -1,47 +1,24 @@
-.contact__header {
-  padding-top: 7rem;
-  text-align: center;
-  font-size: 3rem;
+.contact__container {
+  padding-top: 10rem;
+  width: 70%;
+  margin: 0 auto;
 }
 
-.contact__header h2 {
-  font-family: 'Playfair Display', serif;
+.contact__header h1 {
+  font-size: 4rem;
 }
 
-.contact__header img {
-  height: 6rem;
-  width: 46.37rem;
-  z-index: -1;
-  position: absolute;
-  top: 204rem;
-  left: 28rem;
-}
-
-.header__socials {
-  font-size: 15rem;
-  text-align: center;
-  margin-top: 0rem;
-}
-
-.header__socials a {
-  margin-left: 2rem;
-  margin-right: 2rem;
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .contact__final {
-  text-align: center;
-  font-size: 2rem;
-}
-
-.rtn_btn {
-  margin: 0 auto;
-  margin-top: 3rem;
-  font-size: 2.5rem;
-  border: 5px solid black;
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 22rem;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.1rem;
+  opacity: 60%;
+  padding-bottom: 2rem;
 }

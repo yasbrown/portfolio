@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import SWIPE from '../../assets/paint-swipe.png'
 import RUBY from '../../assets/Ruby.png'
 import RAILS from '../../assets/Rails.png'
 import REACT from '../../assets/React.png'
@@ -9,24 +8,31 @@ import HTML from '../../assets/HTML5.png'
 import CSS from '../../assets/CSS3.png'
 import POSTGRES from '../../assets/Postgresql.png'
 import HEROKU from '../../assets/Heroku.png'
+import { motion as m } from "framer-motion"
+import ContactSocials from './ContactSocials'
 
 const About = () => {
   return (
     <section id="about">
-      <div className="about__header">
-        <h2>About me</h2>
-        <img src={SWIPE} alt="paint-swipe" />
+      <div className="about__header overflow-hidden">
+        <m.h2
+          animate={{ y: 0 }}
+          initial={{ y: "100%" }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          >
+          About
+        </m.h2>
       </div>
 
-      <div className="container about__greeting">
-        <h2>Hi, my name is Yasmin.</h2>
-      </div>
-      <div className="container about__content">
-        <p>I am a fullstack developer currently based in London, UK. Originally from a successful background in clinical medicine, I have always thrived in agile environments that allow me to find creative solutions to complex problems.</p>
+      <div className="about__content">
+        <p>Currently based in South-East London. As a growing engineer and designer, I am interested in working on projects with a social conscience that have been thoughtfully conceived and are refined in execution. I have always thrived in agile environments that allow me to find creative solutions to complex problems.</p>
         <p>Although I have since swapped my stethoscope for a MacBook I have spent my professional career relishing any opportunity to communicate my ideas with others, whether that be as a teaching assistant at Le Wagon, or discussing challenging ideas with clients and stakeholders.</p>
-        <p>It is this diverse skillset which I utilise in order to create impact.</p>
+
+        <p>Feel free to reach out to me on socials. I am always on the look out for fun opportunities.</p>
       </div>
 
+
+      {/* CHANGE STACK TO CAROUSEL */}
       <div className="container stack__header">
         <h2>My stack</h2>
       </div>
@@ -64,6 +70,8 @@ const About = () => {
           <p>Heroku</p>
         </div>
       </div>
+
+      <div className='contact_links'><ContactSocials /></div>
 
     </section >
   )
