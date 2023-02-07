@@ -1,6 +1,5 @@
 import React from 'react'
 import './header.css'
-import PAINT from '../../assets/Paint-header.png'
 import { motion as m } from "framer-motion"
 
 const Header = () => {

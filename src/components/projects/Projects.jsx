@@ -4,8 +4,20 @@ import WALKIN from '../../assets/Mockup Walkin.png'
 import AIR from '../../assets/AirBroomNBroom.png'
 import LOGO from '../../assets/WalkIn Logo.png'
 import {BsGithub} from 'react-icons/bs'
+import { motion as m } from "framer-motion"
 
 const Projects = () => {
+  const [scrollY, setScrollY] = React.useState(0);
+
+  React.useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    setScrollY(window.scrollY);
+  };
+
   return (
     <section id="projects">
       <div className="portfolio__header">
@@ -16,7 +28,16 @@ const Projects = () => {
         <div className="portfolio__projects">
 
           <div className='walkin'>
-            <img src={WALKIN} alt="WalkIn Mockup" />
+            <m.img
+             animate={{ y: 0 }}
+             initial={{ y: "100%" }}
+             transition={{ delay: 0.5, duration: 0.5 }}
+             style={{
+               transform: `perspective(1200px) translateX(0px) translateY(${scrollY /
+                 2}px) scale(1.29043) rotate(0deg) rotateX(${-23.2346 +
+                 scrollY / 50}deg) rotateY(0deg) translateZ(0px)`,
+             }}
+              src={WALKIN} alt="WalkIn Mockup" />
             <div className='project__info'>
               <div className='project__info__name__type'>
                 <h2>WalkIn</h2>
