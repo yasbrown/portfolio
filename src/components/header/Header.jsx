@@ -3,39 +3,21 @@ import './header.css'
 import { motion as m } from "framer-motion"
 
 const Header = () => {
+  let counter = 0;
   const cycle = () => {
       const greetings = ["Bonjour", "Konnichiwa", "Hallo", "Ciao", "Guten Tag", "Hola", "Hi"];
-      let counter = 0;
 
-    // while (counter < greetings.length) {
-    //   let hi = document.getElementById("hello")
-    //   hi.innerHTML = greetings[counter];
-    //   counter++;
-    // }
-
-    if (counter < greetings.length) {
-      let hi = document.getElementById("hello")
-      hi.innerHTML = greetings[counter];
-      counter++;
-      console.log(counter)
-    } else {
-      counter = 0;
+      if (counter < greetings.length) {
+        let hi = document.getElementById("hello")
+        hi.innerHTML = greetings[counter];
+        counter++;
+      } else {
+        let hi = document.getElementById("hello")
+        hi.innerHTML = greetings[6];
+      }
     }
 
-    // for (const greeting of greetings){
-    //   console.log(greeting);
-    //   let hi = document.getElementById("hello")
-    //   hi.innerHTML = greeting;
-    // }
-
-    // for (let counter = 0; counter < greetings.length; counter++) {
-    //   console.log(greetings[counter])
-    //   let hi = document.getElementById("hello")
-    //   hi.innerHTML = greetings[counter];
-    // }
-    }
-
-  setInterval(cycle, 2300);
+  setInterval(cycle, 2000);
 
   return (
     <header id="header">
