@@ -1,5 +1,6 @@
 import React from 'react'
 import './contact.css'
+import ContactSocials from './ContactSocials'
 
 const Contact = () => {
   return (
@@ -15,6 +16,8 @@ const Contact = () => {
           <h3>I'd love to chat!</h3>
         </div>
       </div>
+
+      <div className='contact_links'><ContactSocials /></div>
     </section>
   )
 }

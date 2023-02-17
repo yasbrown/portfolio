@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import './projects.css'
 import WALKIN from '../../assets/Mockup Walkin.png'
 import AIR from '../../assets/AirBroomNBroom.png'
@@ -7,16 +7,31 @@ import {BsGithub} from 'react-icons/bs'
 import { motion as m } from "framer-motion"
 
 const Projects = () => {
-  const [scrollY, setScrollY] = React.useState(0);
+  const portfolioImageAnimate = {
+    offscreen:{
+      y:100,
+      opacity:0
+    },
+    onscreen:{
+      y:0,
+      opacity:1,
+      transition:{
+        duration: 1.5,
+        type: "spring" }
+    }
+  }
 
-  React.useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const handleScroll = () => {
-    setScrollY(window.scrollY);
-  };
+  const portfolioTextAnimate = {
+    offscreen:{
+      x:-100,
+      opacity:0 },
+    onscreen:{
+      x:0,
+      opacity:1,
+      transition:{
+        duration: 1.5,
+        type: "spring" }}
+  }
 
   return (
     <section id="projects">
@@ -27,18 +42,19 @@ const Projects = () => {
       <div className="portfolio__content">
         <div className="portfolio__projects">
 
-          <div className='walkin'>
+          <m.div className='walkin'
+            initial={ "offscreen" }
+            whileInView={ "onscreen" }
+            viewport={{ once:false, amount:0.5 }}
+            transition={{ staggerChildren:0.8 }}
+            >
             <m.img
-             animate={{ y: 0 }}
-             initial={{ y: "100%" }}
-             transition={{ delay: 0.5, duration: 0.5 }}
-             style={{
-               transform: `perspective(1200px) translateX(0px) translateY(${scrollY /
-                 2}px) scale(1.29043) rotate(0deg) rotateX(${-23.2346 +
-                 scrollY / 50}deg) rotateY(0deg) translateZ(0px)`,
-             }}
-              src={WALKIN} alt="WalkIn Mockup" />
-            <div className='project__info'>
+              variants={ portfolioImageAnimate }
+              src={WALKIN} alt="WalkIn Mockup"
+              />
+            <m.div className='project__info'
+              variants={ portfolioTextAnimate }
+              >
               <div className='project__info__name__type'>
                 <h2>WalkIn</h2>
                 <p>Mobile</p>
@@ -55,15 +71,24 @@ const Projects = () => {
                   <BsGithub />
                 </a>
               </div>
-            </div>
-          </div>
+            </m.div>
+          </m.div>
 
-          <div className='airbroomnbroom'>
-            <img src={AIR} alt="AirbroomNBroom Mockup" />
-            <div className='project__info'>
+          <m.div className='airbroomnbroom'
+            initial={ "offscreen" }
+            whileInView={ "onscreen" }
+            viewport={{ once:false, amount:0.5 }}
+            transition={{ staggerChildren:0.5 }}
+            >
+            <m.img src={AIR} alt="AirbroomNBroom Mockup"
+              variants={ portfolioImageAnimate }
+              />
+            <m.div className='project__info'
+              variants={ portfolioTextAnimate }
+              >
               <div className='project__info__name__type'>
-                <p>Desktop</p>
                 <h2>AirBroomNBroom</h2>
+                <p>Desktop</p>
               </div>
               <div className='project__description__stack'>
                 <p>An online marketplace to rent broomsticks (AirBnB clone).</p>
@@ -74,8 +99,8 @@ const Projects = () => {
                   <BsGithub />
                 </a>
               </div>
-            </div>
-          </div>
+            </m.div>
+          </m.div>
 
         </div>
       </div>
