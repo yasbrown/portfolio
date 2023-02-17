@@ -1,5 +1,9 @@
+section {
+  height: 180vh !important;
+}
+
 #about {
-  margin-top: 100vh;
+  margin-top: 80vh;
 }
 
 .about__header {
@@ -30,7 +34,11 @@
   padding-bottom: 0.8rem;
 }
 
-.stack__header {
+.tech__stack__slider {
+  height: 40vh;
+}
+
+/* .stack__header {
   font-size: 1.7rem;
   font-weight: bold;
   text-align: center;
@@ -86,4 +94,4 @@
 #SQL__icn {
   height: 4rem;
   width: 4rem;
-}
+} */
