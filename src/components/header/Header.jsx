@@ -25,20 +25,33 @@ const Header = () => {
         <m.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.85, ease: "easeOut" }}
+          transition={{
+            duration: 0.9,
+            ease: "easeOut"}}
           className="header__container">
 
           <div className="header__text_greeting">
-            <h1><span id="hello">Hi</span>,</h1>
+            <m.h1
+              initial={{ opacity: 0, y:100 }}
+              animate={{ opacity: 1, y:0 }}
+              transition={{duration:0.5}}
+              >
+              <span id="hello">Hi</span>,
+            </m.h1>
           </div>
           <div className="header__text">
             <h1>I'm Yasmin.</h1>
           </div>
         </m.div>
 
-        <div className='header__about'>
+        <m.div className='header__about'
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 0.5 }}
+          transition={{ duration: 0.85, ease: "easeOut" }}>
+
           <p>Fullstack Web Developer currently based in London and teaching at <a href="https://www.lewagon.com/">Le Wagon</a>. Formerly a Veterinary Surgeon in another life.</p>
-        </div>
+
+        </m.div>
 
       </div>
 
