@@ -15,7 +15,7 @@ import HEROKU from '../../assets/Heroku.png'
 
 const StackSlider = () => {
   return (
-    <section>
+    <section className='tech__stack__container'>
       <div className="container py-4 px-4 justify-content-center">
         <Swiper
           freeMode={true}

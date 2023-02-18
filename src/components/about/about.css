@@ -28,14 +28,29 @@ section {
   text-justify: inter-word;
 }
 
-
 .about__content > p {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
 }
 
+.tech__stack__container {
+  margin-top: 4rem;
+}
+
 .tech__stack__slider {
   height: 40vh;
+}
+
+.commit__header h2 {
+  font-size: 6rem;
+}
+
+.react-activity-calendar {
+  margin: 0 auto;
+}
+
+.commit__container {
+  margin-top: 4rem;
 }
 
 /* .stack__header {

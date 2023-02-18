@@ -24,7 +24,7 @@ const Project2 = () => {
     }
     if(!inView){
       animation.start({
-        x:'-100vw',
+        x:'-10vw',
         opacity:0
       })
     }
@@ -43,7 +43,7 @@ const Project2 = () => {
     }
     if(!inView){
       projectBio.start({
-        y:100,
+        y:50,
         opacity:0
       })
     }
