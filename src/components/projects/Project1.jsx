@@ -43,7 +43,7 @@ const Project1 = () => {
     }
     if(!inView){
       projectBio.start({
-        y:100,
+        y:50,
         opacity:0
       })
     }

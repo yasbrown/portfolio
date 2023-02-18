@@ -28,14 +28,29 @@ section {
   text-justify: inter-word;
 }
 
-
 .about__content > p {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
 }
 
+.tech__stack__container {
+  margin-top: 4rem;
+}
+
 .tech__stack__slider {
   height: 40vh;
+}
+
+.commit__header h2 {
+  font-size: 6rem;
+}
+
+.react-activity-calendar {
+  margin: 0 auto;
+}
+
+.commit__container {
+  margin-top: 4rem;
 }
 
 /* .stack__header {
@@ -64,34 +79,13 @@ section {
 .stack__icons p {
   font-family: 'Lato', sans-serif;
   text-align: center;
-}
-
-#rails__icn {
-  width: 8.52rem;
-  height: 3rem;
-}
-
-#HTML__icn {
-  width: 3rem;
-  height: 3.98rem;
-}
-
-#CSS__icn {
-  width: 3rem;
-  height: 4.11rem;
-}
-
-#JS__icn {
-  height: 3rem;
-  width: 3.1rem;
-}
-
-#Heroku__icn {
-  height: 3.22rem;
-  width: 3rem;
-}
-
-#SQL__icn {
-  height: 4rem;
-  width: 4rem;
 } */
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  margin-right: 30px !important;
+}

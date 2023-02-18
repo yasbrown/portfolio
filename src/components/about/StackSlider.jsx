@@ -15,7 +15,7 @@ import HEROKU from '../../assets/Heroku.png'
 
 const StackSlider = () => {
   return (
-    <section>
+    <section className='tech__stack__container'>
       <div className="container py-4 px-4 justify-content-center">
         <Swiper
           freeMode={true}
@@ -46,7 +46,7 @@ const StackSlider = () => {
           }}
           >
             <SwiperSlide>
-              <img src={RUBY} alt="Ruby icon" />
+              <img src={RUBY} alt="Ruby icon"/>
             </SwiperSlide>
             <SwiperSlide>
               <img src={RAILS} alt="Rails icon" />

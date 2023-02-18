@@ -3,8 +3,8 @@ import GitHubCalendar from "react-github-calendar";
 
 const GitHubCommits = () => {
   return (
-    <section>
-      <h1> Days I Code</h1>
+    <section className='commit__container'>
+      <h2 className='commit__header'> Days I Code</h2>
 
       <GitHubCalendar
         username="yasbrown"

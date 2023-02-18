@@ -37,3 +37,7 @@ nav a {
   width: 100%;
   background: var(--color-primary-variant);
 }
+
+#name__href, #projects__href, #about__href, #contact__href {
+  text-decoration: none;
+}

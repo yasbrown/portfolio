@@ -32,7 +32,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <div className="portfolio__header">
+      <div className="container portfolio__header">
         <h2>My Portfolio</h2>
       </div>
 
