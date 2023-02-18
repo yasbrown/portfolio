@@ -5,11 +5,12 @@ section {
 
 .portfolio__header {
   padding-top: 7rem;
-  text-align: center;
-  font-size: 3rem;
+  font-size: 6rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
   }
 
-.portfolio__header h2 {
+.portfolio__header h1 {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -27,19 +28,20 @@ section {
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
-}
-
-.project__info__name__type {
-  padding-left: 0.7rem;
+  padding-top: 0.5rem;
 }
 
 .project__info__name__type h2 {
   font-size: 1.6rem;;
+  padding-left: 1rem;
+  margin-bottom: 0;
 }
 
 .project__info__name__type p {
   font-size: 0.8rem;
   opacity: 60%;
+  padding-left: 1rem;
+  margin-bottom: 0;
 }
 
 .project__description__stack {
@@ -48,9 +50,11 @@ section {
   font-size: 0.8rem;
 }
 
+.project__description__stack p {
+  margin-bottom: 0;
+}
+
 .project__links {
-  font-size: 200%;
-  margin-top: 1rem;
   display: flex;
   flex-direction: row;
 }
@@ -62,8 +66,8 @@ section {
 }
 
 .project__links a {
-  height: 2rem;
-  width: 2rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   padding: 0.5rem;
   box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.09);
@@ -71,6 +75,10 @@ section {
   justify-content: center;
   align-items: center;
   margin: 0.5rem
+}
+
+.project__links a svg {
+  font-size: 2rem;
 }
 
 .airbroomnbroom {
