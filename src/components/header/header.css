@@ -24,6 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding-top: 5.5rem;
 }
 
 .header__about {
