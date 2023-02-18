@@ -79,34 +79,13 @@ section {
 .stack__icons p {
   font-family: 'Lato', sans-serif;
   text-align: center;
-}
-
-#rails__icn {
-  width: 8.52rem;
-  height: 3rem;
-}
-
-#HTML__icn {
-  width: 3rem;
-  height: 3.98rem;
-}
-
-#CSS__icn {
-  width: 3rem;
-  height: 4.11rem;
-}
-
-#JS__icn {
-  height: 3rem;
-  width: 3.1rem;
-}
-
-#Heroku__icn {
-  height: 3.22rem;
-  width: 3rem;
-}
-
-#SQL__icn {
-  height: 4rem;
-  width: 4rem;
 } */
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  margin-right: 30px !important;
+}

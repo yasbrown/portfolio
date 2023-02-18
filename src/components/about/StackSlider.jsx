@@ -46,7 +46,7 @@ const StackSlider = () => {
           }}
           >
             <SwiperSlide>
-              <img src={RUBY} alt="Ruby icon" />
+              <img src={RUBY} alt="Ruby icon"/>
             </SwiperSlide>
             <SwiperSlide>
               <img src={RAILS} alt="Rails icon" />
