@@ -5,7 +5,7 @@ import StackSlider from './StackSlider'
 
 const About = () => {
   return (
-    <section id="about">
+    <div id="about">
       <div className="about__header">
         <h2>
           About
@@ -19,7 +19,7 @@ const About = () => {
       </div>
       <div className='tech__stack__slider'><StackSlider /></div>
       <div className='container github__commit__table'><GitHubCommits /></div>
-    </section >
+    </div >
   )
 }
 

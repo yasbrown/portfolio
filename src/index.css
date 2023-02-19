@@ -46,11 +46,6 @@ h1 {
   font-size: 6.25rem;
 }
 
-section {
-  margin-top: 8rem;
-  height: 100vh;
-}
-
 section > h2 {
   text-align: center;
   color: var(--color-primary);

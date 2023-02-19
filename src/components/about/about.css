@@ -1,9 +1,5 @@
-section {
-  height: 180vh !important;
-}
-
 #about {
-  margin-top: 80vh;
+  height: 150vh;
 }
 
 .about__header {
