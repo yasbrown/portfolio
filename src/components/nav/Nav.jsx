@@ -1,9 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './nav.css'
-import {useState} from 'react'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('');
+
   return (
     <nav>
       <a href="#header" onClick={() => setActiveNav('')} id="name__href">Yasmin Brown</a>

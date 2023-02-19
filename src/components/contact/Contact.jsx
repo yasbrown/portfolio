@@ -12,8 +12,8 @@ const Contact = () => {
         </div>
 
         <div className="contact__final">
-          <h3>I'm currently looking for work. Let me know if you are in need of an engineer.</h3>
-          <h3>I'd love to chat!</h3>
+          <p>I'm currently looking for work. Let me know if you are in need of an engineer, or just reach out on socials to say hello.</p>
+          <p>I'd love to chat!</p>
         </div>
       </div>
 

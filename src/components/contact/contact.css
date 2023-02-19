@@ -1,17 +1,19 @@
+#contact {
+  height: 100vh;
+}
+
 .contact__container {
-  padding-top: 10rem;
+  padding-top: 30rem;
   width: 70%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
 }
 
 .contact__header h1 {
   font-size: 4rem;
-}
-
-.contact__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
 }
 
 .contact__final {
@@ -20,5 +22,14 @@
   text-justify: inter-word;
   font-size: 1.1rem;
   opacity: 60%;
-  padding-bottom: 2rem;
+}
+
+.contact__final p {
+  margin-bottom: 0.5rem;
+}
+
+#email {
+  opacity: 60%;
+  text-decoration: none;
+  padding-left: 2.1rem;
 }

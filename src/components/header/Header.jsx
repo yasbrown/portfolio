@@ -5,7 +5,7 @@ import { motion as m } from "framer-motion"
 const Header = () => {
   let counter = 0;
   const cycle = () => {
-      const greetings = ["Bonjour", "Konnichiwa", "Hallo", "Ciao", "Guten Tag", "Hola", "Hi"];
+      const greetings = ["Bonjour,", "Konnichiwa,", "Hallo,", "Ciao,", "Guten Tag,", "Hola,", "Hi,"];
 
       if (counter < greetings.length) {
         let hi = document.getElementById("hello")
@@ -31,12 +31,12 @@ const Header = () => {
           className="header__container">
 
           <div className="header__text_greeting">
-            <m.h1
+            <m.h1 id="hello"
               initial={{ opacity: 0, y:100 }}
               animate={{ opacity: 1, y:0 }}
-              transition={{duration:0.5}}
+              transition={{ duration:0.5 }}
               >
-              <span id="hello">Hi</span>,
+              Hi,
             </m.h1>
           </div>
           <div className="header__text">

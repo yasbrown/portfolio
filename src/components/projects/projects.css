@@ -1,6 +1,6 @@
-section {
-  margin-top: 8rem;
-  height: 115vh !important;
+#projects {
+  /* margin-top: 8rem; */
+  height: 200vh;
 }
 
 .portfolio__header {
