@@ -1,23 +1,18 @@
 import React from 'react'
 import './header.css'
 import { motion as m } from "framer-motion"
+import Typewriter from "typewriter-effect";
 
 const Header = () => {
-  let counter = 0;
-  const cycle = () => {
-      const greetings = ["Bonjour,", "Konnichiwa,", "Hallo,", "Ciao,", "Guten Tag,", "Hola,", "Hi,"];
-
-      if (counter < greetings.length) {
-        let hi = document.getElementById("hello")
-        hi.innerHTML = greetings[counter];
-        counter++;
-      } else {
-        let hi = document.getElementById("hello")
-        hi.innerHTML = greetings[6];
-      }
-    }
-
-  setInterval(cycle, 2000);
+  const greetings2 = {
+      first: "Hi,",
+      second: "Bonjour,",
+      third: "Konnichiwa,",
+      fourth: "Hallo,",
+      fifth: "Ciao,",
+      sixth: "Guten Tag,",
+      seventh: "Hola,",
+    };
 
   return (
     <header id="header">
@@ -30,13 +25,28 @@ const Header = () => {
             ease: "easeOut"}}
           className="header__container">
 
-          <div className="header__text_greeting">
-            <m.h1 id="hello"
-              initial={{ opacity: 0, y:100 }}
-              animate={{ opacity: 1, y:0 }}
-              transition={{ duration:0.5 }}
-              >
-              Hi,
+          <div className="header__text__greeting">
+            <m.h1
+            initial={{ opacity: 0, y:100 }}
+            animate={{ opacity: 1, y:0 }}
+            transition={{ duration:0.5 }}
+            >
+              <Typewriter
+                options={{
+                  strings: [
+                    greetings2.first,
+                    greetings2.second,
+                    greetings2.third,
+                    greetings2.fourth,
+                    greetings2.fifth,
+                    greetings2.sixth,
+                    greetings2.seventh
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 10,
+                }}
+              />
             </m.h1>
           </div>
           <div className="header__text">
