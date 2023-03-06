@@ -12,7 +12,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__final">
-          <p>I'm currently looking for work. Let me know if you are in need of an engineer, or just reach out on socials to say hello.</p>
+          <p>I'm currently looking for work. Feel free to get in touch if you are in need of an engineer, or reach out on socials just to say hello.</p>
           <p>I'd love to chat!</p>
         </div>
       </div>
