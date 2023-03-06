@@ -1,14 +1,13 @@
 #projects {
-  /* margin-top: 8rem; */
-  height: 200vh;
+  height: 220vh;
 }
 
 .portfolio__header {
   padding-top: 7rem;
-  font-size: 6rem;
+  font-size: 2.5rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
-  }
+}
 
 .portfolio__header h1 {
   font-family: 'Nanum Gothic', sans-serif;
@@ -91,4 +90,96 @@
   padding-left: 1rem;
   margin: 0 auto;
   border-radius: 2%;
+}
+
+
+/* ** MEDIA QUERY MEDIUM DEVICES *** */
+@media screen and (max-width: 1024px) {
+  #projects {
+    height: 170vh;
+  }
+
+  .walkin img {
+    height: 30rem;
+    width: 56.2%;
+    padding-left: 0 !important;
+  }
+
+  .airbroomnbroom img {
+    height: 30rem;
+    width: 56.2%;
+    padding-left: 0;
+  }
+
+  .project__info__name__type h2 {
+    font-size: 1rem;
+  }
+
+  .project__info__name__type p {
+    font-size: 0.6rem;
+  }
+
+  .project__description__stack {
+    font-size: 0.6rem;
+  }
+
+  .project__links img {
+    height: 1rem;
+    width: 0.75rem;
+  }
+
+  .project__links a {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .project__info {
+    width: 63%;
+  }
+}
+
+
+/* ** MEDIA QUERY SMALL DEVICES *** */
+@media screen and (max-width: 600px) {
+  #projects {
+    height: 120vh;
+  }
+
+  .walkin img {
+    height: 20rem;
+    width: 80%;
+    padding-left: 0 !important;
+  }
+
+  .airbroomnbroom img {
+    height: 20rem;
+    width: 80%;
+    padding-left: 0;
+  }
+
+  .project__info__name__type h2 {
+    font-size: 1rem;
+  }
+
+  .project__info__name__type p {
+    font-size: 0.5rem;
+  }
+
+  .project__description__stack {
+    font-size: 0.5rem;
+  }
+
+  .project__links img {
+    height: 1rem;
+    width: 0.75rem;
+  }
+
+  .project__links a {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .project__info {
+    width: 90%;
+  }
 }

@@ -9,7 +9,7 @@ header {
   position: relative;
 }
 
-.header__text_greeting h1 {
+.header__text__greeting h1 {
   padding-top: 16rem;
   font-size: 4rem;
 }
@@ -33,33 +33,27 @@ header {
   text-justify: inter-word;
   font-size: 1.1rem;
   opacity: 60%;
-  padding-bottom: 2rem;
 }
 
 
 /* ** MEDIA QUERY MEDIUM DEVICES *** */
 @media screen and (max-width: 1024px) {
- .header {
-  height: 68vh;
-}
-.header_name > h1 {
-  font-size: 4.6rem;
-}
- .header_title {
-  width: 97%;
-  margin-top: 2rem;
-}
- .header_title > h2 {
-  font-size: 2rem;
-  margin-top: 2rem;
-}
-.header_btn {
-  margin-top: 8.6rem;
-  font-size: 2rem;
-  border: 4px solid black;
-  height: 60px;
-  width: 60px;
-}
+  .header {
+    height: 68vh;
+  }
+
+  .header__text h1 {
+    font-size: 2rem;
+  }
+
+  .header__text__greeting h1 {
+    font-size: 2rem;
+  }
+
+  .header__about {
+    font-size: 0.8rem;
+  }
+
 }
 
 
@@ -68,32 +62,32 @@ header {
   .header {
     height: 100vh;
    }
-   .header_name {
-    margin-top: 3.8rem;
+
+   .header__content {
+    height: 100%;
+    flex-direction: column;
    }
-   .header_name > h1 {
-    font-size: 3.1rem;
+
+   .header__container {
+    height: 60%;
+    width: 100%;
+    margin-bottom: 2rem;
+   }
+
+   .header__about {
+    height: 40%;
+    width: 100%;
+   }
+
+   .header__text h1 {
+    font-size: 2rem;
   }
-   .header_title {
-    width: 97%;
-    margin-top: 2rem;
-    display: inline-block;
+
+  .header__text__greeting h1 {
+    font-size: 2rem;
   }
-   .header_title > h2 {
-    font-size: 1.3rem;
-    margin-top: 1rem;
-  }
-  .header_title h2:nth-child(n+2) {
-    display: inline-block;
-  }
-  .header_title h2:nth-child(n+3) {
-    margin-left: 20px;
-  }
-  .header_btn {
-    margin-top: 9.2rem;
-    font-size: 1.5rem;
-    border: 2.5px solid black;
-    height: 50px;
-    width: 50px;
+
+  .header__about {
+    font-size: 0.8rem;
   }
 }
