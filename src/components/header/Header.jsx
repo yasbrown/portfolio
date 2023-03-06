@@ -64,8 +64,6 @@ const Header = () => {
         </m.div>
 
       </div>
-
-
     </header>
   )
 }
