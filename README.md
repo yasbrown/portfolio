@@ -15,14 +15,16 @@ This project was built using these technologies:
 ## Features
 
 📖 Multi-page layout
+<br>
 📱 Fully responsive
+<br>
 🎨 Styled with CSS
 
 
 ## Installation and Setup Instructions
 
-### `npm install`
-### `npm start`
+1. Installation: `npm install`
+2. In the project directory, you can run: `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
