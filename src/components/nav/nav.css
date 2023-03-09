@@ -3,10 +3,20 @@ nav {
   top: 0;
   right: 40px;
   width: 90%;
+  height: 80px;
   margin: 0 2rem;
   margin-top: 2.5rem;
   display: flex;
   justify-content: space-between;
+  z-index: 999;
+}
+
+.scroll-down nav {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up nav {
+  transform: translate3d(0, 0, 0);
 }
 
 nav a {
