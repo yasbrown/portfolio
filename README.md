@@ -1,12 +1,9 @@
-# My Portfolio Website
+# Built With
 
-This project was built using React.
-</br>
-This website was built to showcase my projects and skills, as well as to show a bit more about me.
+My personal portfolio which features some of my github projects and technical skills.
 
-## Technologies Used
-
-* ReactJS
+This project was built using these technologies:
+* React.js
 * JavaScript (ES6)
 * HTML5
 * CSS3
@@ -14,7 +11,15 @@ This website was built to showcase my projects and skills, as well as to show a 
 * GitHub
 * Webpack
 
-## To Run Code Locally
+
+## Features
+
+📖 Multi-page layout
+📱 Fully responsive
+🎨 Styled with CSS
+
+
+## Installation and Setup Instructions
 
 ### `npm install`
 ### `npm start`
