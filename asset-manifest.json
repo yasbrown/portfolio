@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8455cd35.css",
-    "main.js": "/portfolio/static/js/main.7d6dc9ec.js",
-    "static/media/Mockup Walkin.png": "/portfolio/static/media/Mockup Walkin.d1037b8c3dc778952a55.png",
-    "static/media/AirBroomNBroom.png": "/portfolio/static/media/AirBroomNBroom.971f6ccedab3aff7e499.png",
-    "static/media/Postgresql.png": "/portfolio/static/media/Postgresql.db75c4cfc3de042850af.png",
-    "static/media/Rails.png": "/portfolio/static/media/Rails.622584ddb36a299c4d99.png",
-    "static/media/Ruby.png": "/portfolio/static/media/Ruby.c7bc8aaa300e723f7ef8.png",
-    "static/media/HTML5.png": "/portfolio/static/media/HTML5.fd74e88a9ae803ef2659.png",
-    "static/media/CSS3.png": "/portfolio/static/media/CSS3.bd83ce6411c66f759e68.png",
-    "static/media/React.png": "/portfolio/static/media/React.c39fe1cf1dc6559c7db6.png",
-    "static/media/Figma.png": "/portfolio/static/media/Figma.1b55d4c951fa3caf9908.png",
-    "static/media/git.png": "/portfolio/static/media/git.7d664489ed331806ddc8.png",
-    "index.html": "/portfolio/index.html",
-    "main.8455cd35.css.map": "/portfolio/static/css/main.8455cd35.css.map",
-    "main.7d6dc9ec.js.map": "/portfolio/static/js/main.7d6dc9ec.js.map"
+    "main.css": "/static/css/main.8455cd35.css",
+    "main.js": "/static/js/main.9a498d00.js",
+    "static/media/Mockup Walkin.png": "/static/media/Mockup Walkin.d1037b8c3dc778952a55.png",
+    "static/media/AirBroomNBroom.png": "/static/media/AirBroomNBroom.971f6ccedab3aff7e499.png",
+    "static/media/Postgresql.png": "/static/media/Postgresql.db75c4cfc3de042850af.png",
+    "static/media/Rails.png": "/static/media/Rails.622584ddb36a299c4d99.png",
+    "static/media/Ruby.png": "/static/media/Ruby.c7bc8aaa300e723f7ef8.png",
+    "static/media/HTML5.png": "/static/media/HTML5.fd74e88a9ae803ef2659.png",
+    "static/media/CSS3.png": "/static/media/CSS3.bd83ce6411c66f759e68.png",
+    "static/media/React.png": "/static/media/React.c39fe1cf1dc6559c7db6.png",
+    "static/media/Figma.png": "/static/media/Figma.1b55d4c951fa3caf9908.png",
+    "static/media/git.png": "/static/media/git.7d664489ed331806ddc8.png",
+    "index.html": "/index.html",
+    "main.8455cd35.css.map": "/static/css/main.8455cd35.css.map",
+    "main.9a498d00.js.map": "/static/js/main.9a498d00.js.map"
   },
   "entrypoints": [
     "static/css/main.8455cd35.css",
-    "static/js/main.7d6dc9ec.js"
+    "static/js/main.9a498d00.js"
   ]
 }
