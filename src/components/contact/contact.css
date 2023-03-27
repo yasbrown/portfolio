@@ -60,6 +60,10 @@
     height: 100vh;
   }
 
+  .contact__items {
+    padding-top: 19rem;
+  }
+
   .contact__header h1 {
     font-size: 3rem;
   }

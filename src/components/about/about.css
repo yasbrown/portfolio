@@ -113,6 +113,50 @@
   .tech__stack__slider {
     margin-top: -4rem;
   }
+
+  .skill--box img {
+    height: 7.3rem;
+    width: 4.7rem;
+    margin: 1.5rem;
+  }
+
+  #CSS {
+    width: 5.3rem;
+  }
+
+  #HTML {
+    width: 5.53rem;
+  }
+
+  #Ruby {
+    width: 6.67rem;
+  }
+
+  #Rails {
+    width: 13.3rem;
+    height: 4.67rem;
+  }
+
+  #Git {
+    width: 7.33rem;
+  }
+
+  #Figma {
+    width: 8.67rem;
+    height: 4.67rem;
+  }
+
+  #Javascript {
+    width: 7.33rem;
+  }
+
+  #React {
+    width: 6rem;
+  }
+
+  #PostgreSQL {
+    width: 7.33rem;
+  }
 }
 
 
@@ -133,6 +177,6 @@
   }
 
   .tech__stack__slider {
-    margin-top: -7rem;
+    margin-top: -3rem;
   }
 }
