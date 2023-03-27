@@ -96,7 +96,7 @@
 /* ** MEDIA QUERY MEDIUM DEVICES *** */
 @media screen and (max-width: 1024px) {
   #projects {
-    height: 170vh;
+    height: 240vh;
   }
 
   .walkin img {
@@ -142,7 +142,7 @@
 /* ** MEDIA QUERY SMALL DEVICES *** */
 @media screen and (max-width: 600px) {
   #projects {
-    height: 120vh;
+    height: 138vh;
   }
 
   .walkin img {

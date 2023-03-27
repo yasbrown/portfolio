@@ -1,6 +1,5 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
   overflow: hidden;
 }
 
@@ -24,7 +23,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding-top: 5.5rem;
+  padding-top: 12rem;
 }
 
 .header__about {
@@ -40,7 +39,7 @@ header {
 /* ** MEDIA QUERY MEDIUM DEVICES *** */
 @media screen and (max-width: 1024px) {
   .header {
-    height: 68vh;
+    height: 100vh;
   }
 
   .header__text h1 {
@@ -56,6 +55,10 @@ header {
     padding-bottom: 1rem;
     width: 18rem;
   }
+
+  .header__content {
+    padding-top: 6rem;
+  }
 }
 
 
@@ -67,6 +70,7 @@ header {
 
   .header__content {
     display: block;
+    padding-top: 11rem;
   }
 
   .header__text h1 {
