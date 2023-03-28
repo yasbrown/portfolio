@@ -3,7 +3,7 @@
 }
 
 .portfolio__header {
-  padding-top: 7rem;
+  padding-top: 3rem;
   font-size: 2.5rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
@@ -24,7 +24,7 @@
 .project__info {
   width: 75%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
   align-items: center;
   padding-top: 0.5rem;
@@ -32,14 +32,12 @@
 
 .project__info__name__type h2 {
   font-size: 1.6rem;;
-  padding-left: 1rem;
   margin-bottom: 0;
 }
 
 .project__info__name__type p {
   font-size: 0.8rem;
   opacity: 60%;
-  padding-left: 1rem;
   margin-bottom: 0;
 }
 
@@ -55,33 +53,17 @@
 
 .project__links {
   display: flex;
-  flex-direction: row;
-}
-
-.project__links img {
-  height: 2rem;
-  width: 1.5rem;
-  padding: 0px;
-}
-
-.project__links a {
-  height: 3rem;
-  width: 3rem;
-  border-radius: 50%;
-  padding: 0.5rem;
-  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.09);
-  display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin: 0.5rem
+  padding-top: 3rem;
 }
 
-.project__links a svg {
-  font-size: 2rem;
+.project__links p {
+  font-weight: bold;
 }
 
-.airbroomnbroom {
-  padding-top: 4rem;
+.project2 {
+  margin-top: 4rem;
 }
 
 .airbroomnbroom img {
@@ -92,6 +74,59 @@
   border-radius: 2%;
 }
 
+.react-card-back {
+  width: 100%;
+  height: 713.27px !important;
+}
+
+.walkin-back, .airbroomnbroom-back {
+  text-align: justify;
+  width: 75%;
+  margin: 0 auto;
+  opacity: 60%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.walkin-back p, .airbroomnbroom-back p {
+  margin: 3rem 0;
+}
+
+.project__description__back {
+  padding-top: 8rem;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.active__project_link {
+  border: 2px solid #AF8EF5;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.active__project_link:before {
+  content: '';
+  background: #AF8EF5;
+  position: absolute;
+  width: 0%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transition: 0.3s linear;
+  z-index: -1;
+}
+.active__project_link:hover:before {
+  width: 100%;
+}
+
+.active__project_link:hover {
+  color: white !important;
+}
 
 /* ** MEDIA QUERY MEDIUM DEVICES *** */
 @media screen and (max-width: 1024px) {
@@ -101,13 +136,13 @@
 
   .walkin img {
     height: 30rem;
-    width: 56.2%;
+    width: 72%;
     padding-left: 0 !important;
   }
 
   .airbroomnbroom img {
     height: 30rem;
-    width: 56.2%;
+    width: 72%;
     padding-left: 0;
   }
 
@@ -120,21 +155,28 @@
   }
 
   .project__description__stack {
-    font-size: 0.6rem;
-  }
-
-  .project__links img {
-    height: 1rem;
-    width: 0.75rem;
-  }
-
-  .project__links a {
-    height: 2rem;
-    width: 2rem;
+    font-size: 0.67rem;
   }
 
   .project__info {
-    width: 63%;
+    width: 72%;
+  }
+
+  .project__description__back {
+    padding-top: 5rem;
+    width: 80%;
+  }
+
+  .walkin-back p, .airbroomnbroom-back p {
+    margin: 2rem 0;
+  }
+
+  .react-card-back {
+    height: 531.52px !important;
+  }
+
+  .project__links {
+    padding-top: 2rem;
   }
 }
 
@@ -166,20 +208,27 @@
   }
 
   .project__description__stack {
-    font-size: 0.5rem;
-  }
-
-  .project__links img {
-    height: 1rem;
-    width: 0.75rem;
-  }
-
-  .project__links a {
-    height: 2rem;
-    width: 2rem;
+    font-size: 0.6rem;
   }
 
   .project__info {
-    width: 90%;
+    width: 80%;
+  }
+
+  .project__description__back {
+    padding-top: 2rem;
+    width: 80%;
+  }
+
+  .walkin-back p, .airbroomnbroom-back p {
+    margin: 1rem 0;
+  }
+
+  .react-card-back {
+    height: 368.79px !important;
+  }
+
+  .project__links {
+    padding-top: 0;
   }
 }
