@@ -38,8 +38,8 @@ const Projects = () => {
 
       <div className="portfolio__content">
         <div className="portfolio__projects">
-          <div className='walkin'><Project1 /></div>
-          <div className='airBroomNBroom'><Project2 /></div>
+          <div className='project1'><Project1 /></div>
+          <div className='project2'><Project2 /></div>
         </div>
       </div>
     </div >

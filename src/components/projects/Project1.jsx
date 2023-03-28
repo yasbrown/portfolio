@@ -1,15 +1,15 @@
-import React, {useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import WALKIN from '../../assets/Mockup Walkin.png'
-import LOGO from '../../assets/WalkIn Logo.png'
-import {BsGithub} from 'react-icons/bs'
 import { motion as m, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
+import ReactCardFlip from 'react-card-flip';
 
 const Project1 = () => {
   const {ref, inView} = useInView();
 
   const imgAnimation = useAnimation();
   const projectBio = useAnimation();
+  const [flip, setFlip] = useState(false);
 
   useEffect(() => {
     if(inView){
@@ -49,34 +49,44 @@ const Project1 = () => {
     }
   }, [inView]);
 
-
   return (
-    <div ref={ref} className='walkin'>
-      <m.img
-        animate={ imgAnimation }
-        src={WALKIN} alt="WalkIn Mockup"
-      />
-      <m.div className='project__info'
-        animate={ projectBio }
-        >
-        <div className='project__info__name__type'>
-          <h2>WalkIn</h2>
-          <p>Mobile</p>
-        </div>
-        <div className='project__description__stack'>
-          <p>A web app designed to answer the question: “Where can I get a reservation tonight?”</p>
-          <p>Ruby on Rails  |  JavaScript  |  HTML 5  |  CSS |  PostgreSQL  |  Heroku</p>
+    <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
+      <div ref={ref} className='walkin' onClick={() => setFlip(!flip)}>
+        <m.img
+          animate={ imgAnimation }
+          src={WALKIN}
+          alt="WalkIn Mockup"
+        />
+        <m.div className='project__info'
+          animate={ projectBio }
+          >
+          <div className='project__info__name__type'>
+            <h2>WalkIn</h2>
+            <p>Mobile</p>
+          </div>
+          <div className='project__description__stack'>
+            <p>A web app designed to answer the question: “Where can I get a reservation tonight?”</p>
+            <p>Ruby on Rails  |  JavaScript  |  HTML5  |  CSS3 |  PostgreSQL  |  Heroku</p>
+          </div>
+        </m.div>
+      </div>
+
+      <div ref={ref} className='walkin-back' onClick={() => setFlip(!flip)}>
+        <div className='project__description__back'>
+          <p>A mobile app designed as part of Le Wagon's bootcamp final project. Ruby on Rails and a Javascript were the main engines for this project.</p>
+          <p>Leading a team of 4 to design, built and ship to production this project in 10 days. This project is hosted via Heroku.</p>
         </div>
         <div className='project__links'>
-          <a href="https://walk--in.herokuapp.com/" target="_blank" rel='noopener noreferrer'>
-            <img src={LOGO} alt="Link to WalkIn webpage"/>
-          </a>
-          <a href="https://github.com/yasbrown/walk-in" target="_blank" rel='noopener noreferrer'>
-            <BsGithub />
-          </a>
+          <p><a href="https://walk--in.herokuapp.com/" target="_blank" rel='noopener noreferrer' className='active__project_link'>See live</a></p>
+          <p><a href="https://github.com/yasbrown/walk-in" target="_blank" rel='noopener noreferrer'>See source code</a></p>
         </div>
-      </m.div>
-    </div>
+      </div>
+
+      </ReactCardFlip>
+
+
+
+
   )
 }
 
