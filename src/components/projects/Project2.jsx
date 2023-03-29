@@ -79,7 +79,7 @@ const Project2 = () => {
         </div>
         <div className='project__links'>
           <p><a href="https://airbnb-yasbrown.herokuapp.com/" target="_blank" rel='noopener noreferrer' className='active__project_link'>See live</a></p>
-          <p><a href="https://github.com/yasbrown/walk-in" target="_blank" rel='noopener noreferrer'></a>See source code</p>
+          <p><a href="https://github.com/yasbrown/air_broom_and_broom" target="_blank" rel='noopener noreferrer'>See source code</a></p>
         </div>
       </div>
     </ReactCardFlip>
